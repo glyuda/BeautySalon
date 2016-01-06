@@ -1,0 +1,55 @@
+.page_header {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 333px;
+  width: 1028px;
+  margin: 0 auto;
+}
+.top_header{
+  position: relative;
+  background: none;
+  height: 56px;
+  width: 1028px;
+  margin: 0 auto;
+  vertical-align: bottom;
+  display: table;
+}
+.top_header > p {
+  font: 24px Georgia;
+  font-style: italic;
+  text-align: right;
+  color: #ffffff;
+  opacity: 0.95;
+  width: 100%;
+  display: table-cell;
+  vertical-align: bottom;
+  padding-right: 20px;
+}
+.bottom_header{
+  position: relative;
+  height: 277px;
+  width: 1028px;
+  margin: 0 auto;
+  box-shadow: 5px 3px 10px #000000;
+}
+.bottom_header img{
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+.header_logo{
+  position: relative;
+  background: none;
+  height: 334px;
+  width: 1028px;
+  margin: 0 auto;
+}
+.header_logo > img{
+  width: 418px;
+  height: 333px;
+  opacity: 0.99;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

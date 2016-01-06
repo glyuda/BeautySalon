@@ -1,0 +1,17 @@
+.page_wrapper {
+  display: table;
+  width: 100%;
+  min-height: 100%;
+  z-index: 1;
+  background-image: url("../images/backgrounds/page_background.png");
+  background-size: cover;
+}
+.wrapper {
+  position: relative;
+  z-index: 2;
+  left: 0px;
+  top: 0px;
+  width: 1028px;
+  /*height: 1000px;*/
+  margin: 0 auto;
+}

@@ -1,0 +1,78 @@
+.main_content{
+  /*белый фон*/
+  background: #fff;
+  opacity: 1;
+}
+
+/*блок с цитатами*/
+.quote_block{
+  display: table;
+  /*фон и высота блока*/
+  background-image: url("../images/backgrounds/quoter_block_background.png");
+  background-size: auto;
+  background-position-x: -2px;
+  height: 115px;
+  /*отступы*/
+  padding-left: 230px;
+  padding-right: 230px;
+
+  p{
+    height: auto;
+    /*параметр? шрифта*/
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: Lucida Bright;
+    font-size: 14px;
+    /*выравнивание содержимого блока*/
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+    color: #000;
+  }
+}
+
+/*меню быстрого доступа с картинками*/
+.quick_menu{
+  position: relative;
+  /*height: 400px;*/
+  margin: 0px;
+  float: none;
+}
+.first_row {
+    padding: 20px 0px;
+    list-style: none;
+    display: table;
+    height: 345px;
+    width: 100%;
+
+    li {
+      display: table-cell;
+      width: 33.33%;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    img {
+      position: inherit;
+      opacity: 1;
+    }
+}
+.second_row {
+  padding: 20px 0px;
+  list-style: none;
+  display: table;
+  height: 345px;
+  width: 100%;
+
+  li {
+    display: table-cell;
+    width: 33.33%;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  img {
+    position: inherit;
+    opacity: 1;
+  }
+}
