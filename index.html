@@ -3,9 +3,62 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Салон красоты "Стиль"</title> <!--Заголовок страницы в браузере-->
+    <link rel="stylesheet" href="css/reset.css"> <!--сброс стилей-->
     <link rel="stylesheet" href="css/base.css"/> <!--основной css-->
 </head>
 <body>
-
+    <div class="page_wrapper">
+            <!--Шапка сайта-->
+            <header class="page_header">
+                <div class="header_logo">
+                    <div class="top_header">
+                        <p>САЛОН КРАСОТЫ</p>
+                    </div> <!--end of "top_header"-->
+                    <div class="bottom_header">
+                        <img src="images/backgrounds/bottom_header.png" alt="bottom header picture">
+                    </div> <!--end of "bottom_header"-->
+                    <img src="images/backgrounds/Header_Logo.png" alt="header logo picture">
+                </div>
+            </header>
+            <div class="wrapper">
+            <!--Главное меню-->
+            <nav class="main_menu">
+                <ul>
+                    <li><a href="#">о салоне</a></li>
+                    <li><a href="#">услуги</a></li>
+                    <li><a href="#">акции</a></li>
+                    <li><a href="#">контакты</a></li>
+                </ul>
+            </nav>
+            <!--Основное содержимое страницы-->
+            <main class="main_content">
+                <!--Блок с цитатами-->
+                <div class="quote_block">
+                    <p>
+                        Я много раз выражала себя чужим стилем, который не дал мне ничего хорошего. Главное иметь свой стиль — и тебе будут подражать <br/> <br/><b>Мадонна</b>
+                    </p>
+                </div> <!--end of "quote_block"-->
+                <!--Блок с меню быстрого доступа к услугам-->
+                <nav class="quick_menu">
+                    <ul class="first_row">
+                        <li><a href="#"><img src="images/content/quick_menu_1.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/content/quick_menu_2.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/content/quick_menu_3.png" alt=""></a></li>
+                    </ul>
+                    <ul class="second_row">
+                        <li><a href="#"><img src="images/content/quick_menu_4.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/content/quick_menu_5.png" alt=""></a></li>
+                    </ul>
+                </nav> <!--end of "quick_menu"-->
+            </main>
+            <!--Нижняя часть страницы-->
+            <footer class="page_footer">
+                <div class="social_icons">
+                    <a href="https://vk.com/beautysalon_style"  target="_blank"><img src="images/icons/social_vk.png" alt="VKontakte icon"></a>
+                    <a href="https://www.facebook.com/beautysalonstyleforyou/" target="_blank"><img src="images/icons/social_fb.png" alt="Facebook icon"></a>
+                </div> <!--end of "social_icons"-->
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
